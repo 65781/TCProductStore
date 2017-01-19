@@ -21,7 +21,7 @@ public class PSlogin extends Container
          // add the logo at top
          ImageControl ic = new ImageControl(new Image("img/logo.png"));
          ic.scaleToFit = ic.centerImage = true;
-         add(ic,LEFT,PARENTSIZE+12,FILL,PARENTSIZE+20);
+         add(ic,LEFT,PARENTSIZE+12,FILL,PARENTSIZE+15);
          
          Edit ed;
          
